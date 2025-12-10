@@ -120,7 +120,21 @@ const Products = () => {
           Add Task
         </button>
       </form>
-      {msg && <span style={{ color: "red" }}>{msg}</span>}
+      {msg && (
+        <span
+          style={{
+            color: "red",
+            border: "1px solid red",
+            padding: "2px 5px",
+            borderRadius: "5px",
+            width: "fit-content",
+            cursor: "default",
+            userSelect: "none",
+          }}
+        >
+          {msg}
+        </span>
+      )}
 
       {data.map((item, index) =>
         editList.includes(index) ? (
