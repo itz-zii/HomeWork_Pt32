@@ -229,7 +229,6 @@ const wrapper = (
         borderRadius: "25px",
         boxShadow: "15px 15px 15px 1px #0303043e",
         width: "auto",
-        margin: "50px 0",
         height: "auto",
       }}
     >
