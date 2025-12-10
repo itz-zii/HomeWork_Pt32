@@ -92,7 +92,7 @@ const Products = () => {
         <input
           style={{
             width: "350px",
-            padding: "5px 5px 5px 15px",
+            padding: "5px 15px 5px 15px",
             fontFamily: "Poppins, sans-serif",
             backgroundColor: "transparent",
             border: "2px #8758ff solid",
@@ -229,7 +229,7 @@ const wrapper = (
         borderRadius: "25px",
         boxShadow: "15px 15px 15px 1px #0303043e",
         width: "auto",
-        marginTop: "50px",
+        margin: "50px 0",
         height: "auto",
       }}
     >
