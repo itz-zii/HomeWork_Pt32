@@ -9,7 +9,7 @@ const Products = () => {
   const handleSave = (index) => {
     const newValue = editValues[index].trim();
     if (!newValue) {
-      setMsg("Please write a task in!");
+      setMsg("Please fill in the task!");
       return;
     }
 
@@ -37,7 +37,7 @@ const Products = () => {
   };
   const handleClickBtn = () => {
     if (!value) {
-      setMsg("Please write a task in!");
+      setMsg("Please fill in the task!");
     } else if (data.includes(value)) {
       setMsg("Task already exists!");
     } else {
